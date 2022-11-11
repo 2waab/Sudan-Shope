@@ -212,14 +212,14 @@ header span:nth-child(3):hover:after {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    bottom: 10px;
+    bottom: 5px;
 }
 .indicators ul li {
     background-color: transparent;
     border: 1px solid var(--border-color);
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
+    width: 20px;
+    height: 5px;
+    border-radius: var(--border-radeus);
     cursor: pointer;
     transition: var(--main-transition);
 }
